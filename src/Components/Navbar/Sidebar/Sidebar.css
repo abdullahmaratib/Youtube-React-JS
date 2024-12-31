@@ -1,0 +1,99 @@
+.sidebar{
+
+    height: 100vh;
+    width: 15%;
+    position: fixed;
+    top: 0;
+    padding-left: 1.5vw;
+    padding-top: 80px;
+}
+
+.container{
+
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    width: fit-content;
+}
+
+.container img{
+
+    height: 25px;
+    margin-right: 20px ;
+}
+
+.sidebar hr{
+
+    border: none;
+    height: 1.5px;
+    width: 85%;
+    background-color: #ccc;
+
+}
+
+.subscribe-list h3{
+
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 13px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    color: #5a5a5a;
+    
+}
+
+.channel{
+
+    display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+   
+}
+
+.channel img{
+
+    height: 30px;
+    cursor: pointer;
+    margin-right: 20px;
+    border: 0.5px solid #5a5a5a;
+    border-radius: 50%;
+}
+
+.channel p{
+
+    font-size: 17px;
+    font-family: sans-serif;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.sidebar2{
+
+    width: 5%;
+}
+
+.sidebar2 p{
+
+    display: none;
+}
+
+.sidebar2 h3{
+
+    display: none;
+}
+
+.sidebar2 hr{
+
+    width: 50%;
+    margin-bottom: 25px;
+}
+
+
+.active img{
+
+    padding-bottom: 2px;
+    border-bottom: 3px solid red;
+}
